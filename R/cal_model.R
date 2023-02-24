@@ -1,11 +1,11 @@
 #' Trans fat IR prediction
 #'
-#' @description This function returns the plsr model obtained using IR data (5500) for trans fat
+#' @description This function returns the calibrated plsr model obtained using IR data (4500 Agilent spectrometer, 3 bounce, 4cm-1 resolution) for trans fat. This model can be used to predict trans fat value of an unknown sample from its IR spectra.
 #' @return calibrated plsr model
 #'
 #' @export
 #'
-#' @examples
+#' @examples cal_model <- transfat_model()
 transfat_model <- function() {
   data <- data4500
   # i <- c(2:ncol(data))
