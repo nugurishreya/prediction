@@ -3,8 +3,7 @@ Title: Predicts Trans Fat from IR spectra
 Version: 0.1
 Author: Shreya Madhav Nuguri <nugurishreya@gmail.com>
 Description: transfat_model() gives calibrated PLSR models generated using IR data obtained from Agilent MIR spectrometer (3-bounce, 4cm-1 resolution). This model can be used to predict trans fat value of an unknown sample from its IR spectra.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: use_gpl_license()
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
